@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang = "en">
+
+    <head>
+    
+        <meta charset = "utf-8">
+        <title> Open Charity</title>
+        <link rel="stylesheet" href = "css/ocstyle.css">
+          
+        <!--[if IE 9]> <!-->
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+      
+
+    
+    </head>
+
+    <body>
+    
+        
+        <header class = "header">
+        
+            <div class = "container">
+            
+                <div class = "logo">
+                
+                    <img src = "Images/OC%20Logo.png">
+                
+                </div>
+                
+                <nav>
+                <ul class = "nav">
+                
+                    <li id = "about-open-charity"><a href = "#about"> <img src = "Images/About%20Open%20Charity.png"> </a></li>
+                    <li id = "the-blog"><a href = "#blog"> <img src = "Images/The%20Blog.png"> </a></li>
+                    <li id = "join-us"><a href = "#join"> <img src = "Images/JOIn%20US.png"> </a></li>
+                
+                </ul> 
+                </nav>
+            
+            </div>
+        
+        </header>
+        
+        <section class = "background-div">
+            
+        
+        </section>
+        
+        
+        
+        <section class = "hero">
+        
+            <div class = "container">
+                
+               
+                    
+                    <h1 id="sharing-ideas"> SHARING IDEAS FOR CHARITIES </h1>
+              
+                
+                    <p id= "hero-subtitle-text"> Many charities' goals are similar, as is the functionality we require, but little shared working takes place.</p>
+                    <p id="hero-main-text"> By working together, driving shared areas of interest and influencing open source developments we can bring efficiencies, improve the digital experience for our users, and have great impact.</p>
+                    <p id="hero-end-text"> Together we can make a bigger difference.</p>
+                    
+            
+            </div>
+            
+        </section>
+        
+        
+        <section class = "news">
+        
+            <div class = "container">
+                
+                <div class = "news-text">
+                
+                <p id = "news-when"> <span style="color:#5fc0c3;">Next Event:</span> June 23<sup>rd</sup> 2016 18:30-21:00 </p>
+                <p id = "news-where"> Cancer Research UK, Angel Building, 407 St. John Street, London EC1V 4AD</p>
+                
+                </div>
+                
+                <div class = "news-button">
+                   
+                <img id = "register-button" src = "Images/register-button.png">
+                    
+                </div>
+        
+            </div>
+        
+        </section>
+        
+        
+        <section class = "get-involved">
+        
+            <div class = "container">
+                
+                <h2 class = "get-involved" style = "font-family: 'museo-sans'; font-size: 52px;">GET INVOLVED</h2> 
+                
+                <div class = "row">
+                
+                <div class = "col-4-involved" id = "meetupsection">
+                    
+                    <img src = "Images/meetup-icon.png">
+                    <h3> WE DO MEETINGS </h3>
+                    <p> We organise our meetings through the OpenCharity MeetUp group </p>
+                    <img id = "meetup-button" src = "Images/meetup-button.png">
+                    
+                </div>
+                <div class = "col-4-involved" id = "collaboratesection">
+                
+                    <img src = "Images/collaborate-icon.png">
+                    <h3>WE COLLABORATE</h3>
+                    <p>OpenCharity have a slack group for daily collaboration</p>
+                    <img id = "slack-button" src = "Images/slack-button.png">
+                     
+                </div>
+                    
+                <div class = "col-4-involved" id = "sharesection">
+                    
+                    <img src = "Images/we-share-icon.png">
+                    <h3> WE SHARE</h3>
+                    <p> We  have a Google group set up to share tools and documents</p>
+                    <img id = "google-button" src = "Images/google-group-button.png">        
+                    
+                </div>
+                
+                </div>
+                
+            </div>
+        
+        </section>
+        
+        <section class = "about" id = "about">
+        
+            <div class = "container">
+                
+                <h2 class = "mission"> OUR MISSION </h2>
+                <p>Charities and Partners collaborating and sharing open solutions and ideas to create value in the digital space.</p>
+                <h3>If you are a charity or a supplier, we are ready to welcome you.</h3>
+                
+                <div class = "row">
+                 
+                       <div class = "col-4-involved">
+                    
+                        <img src = "Images/We-help-charities.png">
+
+                        </div>
+                        <div class = "col-4-involved">
+                
+                        <img src = "Images/we-bring-together.png">
+
+                        </div>
+                    
+                        <div class = "col-4-involved">
+                    
+                        <img src = "Images/We-Encourage.png">        
+
+                        </div>
+                
+                </div> 
+                
+            </div>
+
+        </section>
+        
+        <section class = "members">
+            
+            <div class = "container">
+            
+                <hr> 
+                <h2> OUR MEMBERS </h2>
+              <div class = "members-wrapper">    
+                <div class = "col-4-members" id = "cancerdiv">
+                    
+                    <img src = "Images/partner-Cancer-Research.png">
+
+                </div>
+                
+                <div class = "col-4-members" id = "compucorpdiv">
+                    
+                    <img src = "Images/partners-compucorp-logo.png">
+
+                </div>
+                
+                <div class = "col-4-members" id = "kopdiv">
+                    
+                    <img src = "Images/partner-Kop-Logo.png">
+
+                </div>
+                
+                <div class = "col-4-members" id = "zingdiv">
+                    
+                    <img src = "Images/partner-Zing-Logo.png">
+                    
+                </div>
+                
+                <div class = "col-4-members" id = "comicdiv">
+                    
+                    <img src= "Images/partner-comic-relief.png">
+
+                </div>
+                </div> 
+                <div class = "ellipse-nav">
+                <img class = "ellipse" src = "Images/Ellipse-blue.png">
+                <img class = "ellipse" src = "Images/Ellipse-gray.png">
+                <img class = "ellipse" src = "Images/Ellipse-gray.png">
+                </div>
+
+            </div>
+
+        </section>
+        
+        <section class = "blog" id = "blog">
+        
+            <img id = "arrow-left" src = "Images/arrow-left.png">
+                <img id = "arrow-right" src = "Images/arrow-right.png">
+            
+            <h2> OUR BLOG </h2>
+            
+            <div class = "container">
+                
+    
+                <div class = "col-4-blog">
+                
+                    <h3>Online Donations Special...</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <hr>
+                    <p>14 Nov 2014</p>
+                    
+                </div>
+                
+                <div class = "col-4-blog">
+                    
+                     <h3>Online Donations Special...</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <hr>
+                    <p>14 Nov 2014</p>
+                
+                </div>
+                
+                <div class = "col-4-blog">
+                    
+                     <h3>Online Donations Special...</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <hr>
+                    <p>14 Nov 2014</p>
+                
+                </div>
+                
+                <div class = "col-4-blog">
+                    
+                     <h3>Online Donations Special...</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <hr>
+                    <p>14 Nov 2014</p>
+                
+                </div>
+            </div>  
+        </section>
+        
+        <section class = "social">
+        
+            <div class = "container">
+            
+                <img src = "Images/social-icons.png">
+                
+                <hr>
+                
+                <p>This site was built as a collaboration between <span style="color:#5dc0c9;"> Manifesto Digital</span> and <span style="color:#5dc0c9;">Compucorp</span> </p>
+
+            </div>
+        </section>
+
+    </body>
+
+</html>

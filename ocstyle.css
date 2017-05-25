@@ -1,0 +1,799 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+
+    box-sizing: border-box;
+    }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+     }
+
+a {
+
+    text-decoration: none;
+    }
+
+/* Container and header section */
+
+.container {
+
+    width: 100%;
+    margin: 0 auto;
+
+    
+        }
+
+.header {
+
+    background-color:#ffffff;
+    height: 160px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    
+        }
+
+
+.logo {
+    
+    float: left;
+    margin: 56px 169px;
+    
+    
+    
+}
+
+.nav {
+    
+    float: right;   
+    
+}
+
+.nav li {
+    
+    display: inline-block;
+    padding-right: 67px;
+    float: left;
+    margin: 56px 0px;
+}
+
+#join-us {
+    
+    border: solid 2px #61c0bd;
+    padding: 32px 56px;
+    margin: 20px 135px 40px 0px;
+    
+}
+
+#about {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+.background-div {
+    
+    height: 160px;
+}
+
+/* Hero section stylings */
+
+.hero {
+    
+    background: #f2f2f2 
+        url("heroBackground.png") no-repeat;
+    background-image: 
+    linear-gradient(
+      rgba(86, 86, 86, 0.55),
+      rgba(86, 86, 86, 0.55)
+    ),
+    url("heroBackground.png");
+    background-size: cover;
+    height: 940px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    width: 100%;
+    color: #fff;
+    
+    
+}
+
+#sharing-ideas {
+    
+    font-family: 'museo-sans-rounded', sans-serif;
+    font-size: 110px;
+    line-height: 100px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    
+}
+
+#hero-subtitle-text {
+    font-family: 'open-sans', sans-serif;
+    font-size: 34px;
+    width: 53%;
+    margin-left: 25%;
+    padding-bottom: 85px;
+    line-height: 45px;
+    
+    
+}
+
+#hero-main-text {
+    
+    font-family: "open-sans", sans-serif;
+    font-size: 28px;
+    width: 53%;
+    margin-left: 25%;
+    padding-bottom: 85px;
+    line-height: 45px;
+}
+
+#hero-end-text {
+    
+    font-family: "open-sans", sans-serif;
+    font-size: 34px;  
+    line-height: 100px;
+}
+
+/* News section stylings */
+
+.news {
+    
+    height: 230px;
+    width: 100%;
+    background-color: #f1f2f5;
+}
+
+.news-text {
+    
+    width: 75%;
+    height: 230px;
+    float: left;
+    
+}
+
+.news-button {
+    
+    width: 25%;
+    height: 230px;
+    float: left;
+}
+
+#register-button{
+    
+   float: right;
+    margin-top: 75px;
+    margin-right: 135px;
+    
+}
+
+#news-when {
+    
+    font-size: 34px;
+    margin-left: 170px;
+    margin-top: 70px;
+       
+}
+
+#news-where {
+    
+    font-size: 28px;
+    margin-left: 170px;
+    margin-top: 40px;
+    
+}
+
+/* Get involved section stylings */
+
+.get-involved .container {
+    
+    text-align: center;
+    height: 1140px;
+    padding: 80px 20px;
+    background-color: #fff;
+    
+}
+
+.get-involved h2 {
+    
+    font-family: 'Museo-sans', sans-serif;
+    margin-bottom: 95px;
+    color: #565659;
+}
+
+.col-4-involved {
+    
+    width: 33.333%;
+    float: left;
+    line-height: 90px;
+    padding: 40px 100px;
+    
+}
+
+.get-involved p {
+    
+    font-family: 'Open-sans', sans-serif;
+    font-size: 28px;
+    line-height: 45px;
+    margin: 60px 0px;
+    color: #565659;
+}
+
+.get-involved h3 {
+    
+    font-family: 'Museo-sans', sans-serif;
+    font-size: 34px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+    color: #565659;
+}
+
+.row {
+    
+    overflow: hidden;
+}
+
+#meetupsection {
+    
+    margin-top: 1%;
+}
+
+/*about section stylings */
+
+.about {
+    background-color: #f1f2f5;
+    
+}
+
+.about .container {
+    
+    text-align: center;
+    height: 1120px;
+    margin-top: 80px;
+    padding: 100px 40px 100px 0px;
+   
+}
+
+.about h2 {
+    
+    font-family: 'Museo-sans', sans-serif;
+    margin-bottom: 95px;
+    font-size: 52px;
+    color: #565659;
+}
+
+.about h3 {
+    
+    font-family: 'Museo-sans', sans-serif;
+    font-size: 34px;
+    margin-top: 70px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    color: #565659;
+}
+
+.about p {
+    
+    font-family: 'Open-sans', sans-serif;
+    font-size: 28px;
+    color: #565659;
+}
+
+/* members and partners section stylings */
+
+.members {
+    
+    background-color: #f1f2f5;
+}
+
+.members .container {
+    
+    height: 797px;
+    text-align: center;
+  
+    
+}
+
+.members hr {
+    
+    height: 4px;
+    color: #d9dadd;
+    margin: 0;
+    padding: 0px;
+}
+
+.members h2 {
+    
+    font-family: 'Museo-sans', sans-serif;
+    font-size: 52px;
+    color: #565659;
+    padding-top: 105px;
+    
+}
+
+.col-4-members {
+    
+    width: 20%;
+    float: left;
+    margin-top: 130px;
+}
+
+#cancerdiv {
+    
+    margin-top: 6.5%;
+    
+}
+
+#compucorpdiv {
+    
+    margin-top: 7%;
+    
+}
+
+#kopdiv {
+    
+    margin-top: 7%;
+    
+}
+
+#zingdiv {
+    
+    margin-top: 5%;
+}
+
+#comicdiv {
+    
+    margin-top: 4.5%;
+    
+}
+
+.ellipse-nav {
+    
+    margin-left: 48%;
+}
+
+.ellipse {
+    
+    float: left;
+    margin-right: 20px;
+    margin-top: 150px;
+    margin-bottom: 65px;
+     
+   
+    
+}
+
+/* Blog section stylings */
+
+.blog {
+    
+    background-color: #fff;
+}
+
+.blog .container {
+    
+    height: 622px;
+    text-align: center;
+    
+}
+
+#arrow-left {
+    
+    float:left;
+    position: relative;
+    padding-top: 480px;
+    padding-left: 95px;
+}
+
+#arrow-right {
+    
+    float: right;
+    position: relative;
+    padding-top: 480px;
+    padding-right: 95px;
+}
+
+.blog h2 {
+    
+    font-family: 'Museo-sans', sans-serif;
+    margin-bottom: 95px;
+    padding-top: 100px;
+    font-size: 52px;
+    color: #565659;
+    text-align: center;
+    
+}
+
+.blog h3 {
+    
+    font-family: 'open-sans', sans-serif;
+    font-size: 28px;
+    color: #61c0bd;
+    padding-bottom: 26px;
+}
+
+.blog hr {
+    
+    color: #f1f2f5;
+    height: 4px;
+    
+}
+
+.blog p {
+    
+    font-family:'open-sans', sans-serif;
+    font-size: 28px;
+    color:5b6172;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    
+}
+
+.col-4-blog {
+    
+    float: left;
+    display: block;
+    margin: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 22%;
+    line-height: 55px;
+
+}
+
+/* social section stylings */
+
+.social {
+    
+    background-color: #454850;
+    height: 380px;
+
+}
+
+.social .container {
+    
+    height: 335px;
+    text-align: center;
+    
+}
+
+.social img {
+    
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.social hr {
+    
+    color: #575b64;
+    height: 2px;
+}
+
+.social p {
+    
+    font-family: 'open-sans', sans-serif;
+    font-size: 28px;
+    color: #979eb1;
+    padding-top: 55px;
+}
+
+/* MEDIA QUERIES and RESPONSIVENESS*/
+
+/*responsiveness for 2168px and below */
+
+@media screen and (max-width: 2168px) { 
+
+    /* blog responsiveness */
+    .blog .container{
+        
+        width: 80%;
+        height: auto;
+    }
+    
+    .col-4-blog {
+
+        float: none;
+        margin: auto;
+        overflow: auto;
+        width: 100%;
+        line-height: 40px;
+
+    }
+    
+    #arrow-right {
+        
+        visibility: hidden;
+    }
+    
+    #arrow-left {
+        
+        visibility: hidden;
+    }
+    
+    /* about responsiveness */
+  
+
+    .about h3 {
+        
+        padding-bottom: 20px;
+    }
+    
+    /* hero responsiveness */
+    .hero {
+        
+        height : auto;
+    }
+    
+    #hero-end-text {
+        
+        padding-bottom: 50px;
+    }
+    
+    /* news responsiveness */
+    
+    #register-button {
+        
+        float: left;
+        padding-left: 20px;
+    }
+    
+    .news {
+        
+        height: 300px;
+    }
+    
+    
+    #news-when {
+        margin-left: 50px;
+
+    }
+
+    #news-where {
+
+        margin-left: 50px;
+    }
+    
+   
+    /* about responsiveness */
+    .about .container {
+    
+    text-align: center;
+    height: auto;
+    margin-top: 30px;
+   
+    }
+    
+    .about .col-4-involved {
+        
+        float: none;
+        margin-left: 29%;
+        margin-top: -10px;
+    }
+    
+    }
+
+/*responsiveness for 1800px and below */
+
+@media screen and (max-width: 1800px) {
+    
+    /* about responsiveness*/
+    
+    .about .col-4-involved {
+        
+        float: none;
+        margin-left: 19%;
+        margin-top: -10px;
+    }
+    
+    /* get involved section responsiveness*/
+    
+    .get-involved .container {
+    
+    text-align: center;
+    height: auto;
+    
+        }
+
+    .get-involved h2 {
+
+        margin-bottom: 45px;
+        }
+
+    .get-involved .col-4-involved {
+
+        width: 33.333%;
+        float: left;
+        line-height: 40px;
+        padding: 40px 80px;
+
+        }
+    
+    /*menu nav bar responsiveness*/
+        
+    .header {
+        
+        height: auto;
+    }
+    
+    .nav {
+        
+        float: left;
+        padding-left: 10%;
+    }
+    
+    .background-div {
+        
+        height: 300px;
+    }
+}
+
+/*responsiveness for 1700px and below */
+@media screen and (max-width: 1700px) {
+    
+    /*get involved section responsiveness */
+    
+    .get-involved .col-4-involved {
+        
+        float: none;
+    }
+    
+    #meetupsection {
+        
+        margin-left: 33%;
+    }
+    
+    #meetup-button {
+        
+        margin-left: -55px;
+    }
+    
+      #collaboratesection {
+        
+        margin-left: 33%;
+    }
+    
+     #slack-button {
+        
+        margin-left: -55px;
+    }
+    
+      #sharesection {
+        
+        margin-left: 33%;
+    }
+    
+     #google-button {
+        
+        margin-left: -55px;
+    }
+    
+    /* members section responsiveness */
+    
+    .members .container {
+        
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    .members .col-4-members {
+        
+        float: none;
+        padding-left: 40%;
+    }
+    
+    .ellipse-nav {
+        
+        display: none;
+    }  
+}
+
+/* responsiveness for 800 and below */
+
+@media screen and (max-width: 1000px) {
+        
+    
+    .background-div {
+        
+        height: 400px;
+    }
+    
+    /*get involved responsiveness */
+    
+    .get-involved .col-4-involved {
+        
+        width: 70%;
+        
+    }
+
+    #meetupsection {
+        
+        margin-left: 15%;
+    }
+    
+    #meetup-button {
+        
+        margin-left: -5px;
+    }
+    
+      #collaboratesection {
+        
+        margin-left: 15%;
+    }
+    
+     #slack-button {
+        
+        margin-left: -5px;
+    }
+    
+      #sharesection {
+        
+        margin-left: 15%;
+    }
+    
+     #google-button {
+        
+        margin-left: -5px;
+    }
+    
+    /* about responsiveness */
+    
+    .about .col-4-involved {
+        
+        float: none;
+        margin-left: 3%;
+        margin-top: -10px;
+    }
+    
+}
+
+
+    
+
+
+
+
